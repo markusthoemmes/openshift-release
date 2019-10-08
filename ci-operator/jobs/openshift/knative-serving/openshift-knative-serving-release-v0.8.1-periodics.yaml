@@ -5,6 +5,8 @@ periodics:
   - base_ref: release-v0.8.1
     org: openshift
     repo: knative-serving
+  labels:
+    pj-rehearse.openshift.io/can-be-rehearsed: "true"
   interval: 12h
   name: periodic-ci-openshift-knative-serving-release-v0.8.1-e2e-vsphere-ocp-42
   spec:
